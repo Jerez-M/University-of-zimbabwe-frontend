@@ -1,0 +1,41 @@
+.login-container {
+    background-image: url('../../../assets/images/bg_1.png');
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .login-form {
+    background-color: #ffffff;
+    padding: 2px;
+    border-radius: 8px;
+  
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 2px;
+  
+    width: 90%;
+    max-width: 430px;
+  }
+  .website-logo-login-form {
+    width: 200px;
+    align-self: center;
+    margin-bottom: 10px;
+  }
+  @media screen and (min-width: 768px){
+      .login-form{
+          padding: 40px;
+      }
+      .website-logo-login-form{
+          width: 150px;
+          margin-bottom: 30px;
+      }
+  } 
+  .error-msg{
+      margin-top: 2px;
+      margin-left: 4px;
+      color: #ff0b37;
+      font-family: 'Roboto';
+      font-size: 13px;
+  }
