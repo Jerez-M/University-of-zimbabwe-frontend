@@ -19,7 +19,7 @@ import {useNavigate} from "react-router-dom";
 // import TeacherGenderRatio from "./TeacherGenderRatio";
 import AuthenticationService from "../../../services/authentication.service";
 import {useEffect, useState} from "react";
-import {pluralize} from "../../../common";
+import {pluralize, primaryColor} from "../../../common";
 
 const AdminDashboard = () => {
     const navigate = useNavigate();
@@ -95,7 +95,7 @@ const AdminDashboard = () => {
                     <Button
                         icon={<ClockCircleOutlined />}
                         className='border-0 px-3 text-white'
-                        style={{background: '#39b54a'}}
+                        style={{background: primaryColor}}
                     >
                         <Space>
                             Quick actions...

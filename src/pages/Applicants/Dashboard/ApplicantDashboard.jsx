@@ -9,6 +9,7 @@ import {useNavigate} from "react-router-dom";
 // import SchoolStatistics from "./SchoolStatistics";
 import AuthenticationService from "../../../services/authentication.service";
 import {useEffect, useState} from "react";
+import { primaryColor } from "../../../common";
 
 const ApplicantDashboard = () => {
     const navigate = useNavigate();
@@ -89,7 +90,7 @@ const ApplicantDashboard = () => {
                     <Button
                         icon={<ClockCircleOutlined />}
                         className='border-0 px-3 text-white'
-                        style={{background: '#39b54a'}}
+                        style={{background: primaryColor}}
                     >
                         <Space>
                             Quick Actions:

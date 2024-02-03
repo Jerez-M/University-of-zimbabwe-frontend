@@ -200,7 +200,7 @@ export const handleJerryError = (e, defaultMessage) => {
 
 };
 
-export const primaryColor = "#39b54a";
+export const primaryColor = "#460fd1";
 export const editColor = "#FAAD14";
 export const deleteColor = "#d22323";
 export const successColor = "#87d068";
