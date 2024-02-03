@@ -5,6 +5,7 @@ import {
 } from "@ant-design/icons";
 import {useNavigate} from "react-router-dom";
 import {useEffect, useState} from "react";
+import { primaryColor } from "../../../common";
 
 const SuperuserDashboard = () => {
     const [totalNumberOfStudents, setTotalNumberOfStudents] = useState({});
@@ -60,7 +61,7 @@ const SuperuserDashboard = () => {
                     <Button
                         icon={<ClockCircleOutlined />}
                         className='border-0 px-3 text-white'
-                        style={{background: '#39b54a'}}
+                        style={{background: primaryColor}}
                     >
                         <Space>
                             Quick actions...
