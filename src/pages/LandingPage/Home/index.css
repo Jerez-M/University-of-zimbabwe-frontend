@@ -24,7 +24,7 @@
     max-width: 500px;
 }
 .home-heading {
-  color: #ffffff;
+  color: white;
   font-family: 'Roboto';
   font-size: 32px;
   line-height: 1.4;
@@ -42,7 +42,7 @@
   }
 }
 .home-description {
-  color: #f1f5f9;
+  color: white;
   font-family: 'Roboto';
   font-size: 16px;
   margin-top: 25px;
